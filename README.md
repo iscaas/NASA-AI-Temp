@@ -22,6 +22,7 @@ SA3C based GTO to GEO transfer  | SA3C based Super-GTO to GEO transfer
   <div align="center">
 <image src='/readmeplots/ablation studies.PNG' width=500/>
   </div>
+  
 SA3C based 2 body transfer  | SA3C based 3 body  transfer
 :-: | :-:
 <image src='/readmeplots/fig7.PNG' width=500/> | <image src='/readmeplots/NRHO3d.PNG' width=500/>
