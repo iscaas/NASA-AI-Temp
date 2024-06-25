@@ -12,3 +12,22 @@ SA3C based Super-GTO to Cislunar Patchpoint transfer  | SA3C based Super-GTO to 
 SA3C based GTO to GEO transfer  | SA3C based Super-GTO to GEO transfer
 :-: | :-:
 <![SA3C based GTO to GEO transfer](/readmeplots/GTO-GEO.gif) > | <![SA3C based S-GTO to GEO transfer](/readmeplots/SuperGTO-GEO.gif) >
+
+
+## Methodology
+<image src='/readmeplots/methodology.PNG' width=1000/>
+
+## Results
+<image src='/readmeplots/results.PNG' width=1000/>
+<image src='/readmeplots/ablation studies.PNG' width=1000/>
+SA3C based 2 body transfer  | SA3C based 3 body  transfer
+:-: | :-:
+<image src='/readmeplots/fig7.PNG' width=500/> | <image src='/readmeplots/NRHO3d.PNG' width=500/>
+<image src='/readmeplots/2bodyscores.PNG' width=500/> | <image src='/readmeplots/3bodyscores.PNG' width=500/>
+<image src='/readmeplots/2bodyresultsplots.PNG' width=500/> | <image src='/readmeplots/NRHOresultsplots.PNG' width=500/>
+
+## Citation
+If you find this work beneficial to your research or project, I kindly request that you cite it:
+```
+
+```
