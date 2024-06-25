@@ -14,6 +14,11 @@ SA3C based GTO to GEO transfer  | SA3C based Super-GTO to GEO transfer
 <![SA3C based GTO to GEO transfer](/readmeplots/GTO-GEO.gif) > | <![SA3C based S-GTO to GEO transfer](/readmeplots/SuperGTO-GEO.gif) >
 
 
+## Files Description
+## Setting up Enviornment:
+## Running the code:
+
+
 ## Methodology
 <image src='/readmeplots/methodology.PNG' width=1000/>
 
