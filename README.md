@@ -4,7 +4,7 @@ We provide the code repository for our paper. This repository includes the neces
 
 SA3C based Super-GTO to Cislunar Patchpoint transfer  | SA3C based Super-GTO to NRHO-L2 transfer
 :-: | :-:
-<![SA3C based S-GTO to PatchPoint transfer](/readmeplots/) > | <![SA3C based S-GTO to NRHO transfer](/readmeplots/NRHO3dvid.gif) >
+<![SA3C based S-GTO to PatchPoint transfer](/readmeplots/PP3dvid.gif) > | <![SA3C based S-GTO to NRHO transfer](/readmeplots/NRHO3dvid.gif) >
 
 
 
