@@ -31,6 +31,8 @@ Contains code, plots, and final optimized weights for Super-GTO-2 to NRHO and Su
 ## Setting up Enviornment:
 #### Prerequisites:
 - Python >=3.7.1,<3.11
+- Matlab 2021 or later
+  
 To run experiments locally:
 ```sh
 git clone https://github.com/iscaas/NASA-AI-TrajectoryOpt_2020-2024.git
@@ -38,7 +40,7 @@ pip install -r requirements/requirements.txt
 ```
 
 Next We need to install the MATLAB extension in above enviornment. 
-For that first install MATLAB on your system (e.g., MATLAB 2021a). and then Activate your above Conda environment, navigate to the following MATLAB installation folder and install the python setup file:
+For that first install MATLAB on your system (e.g., MATLAB 2021a)  and then Activate your above Conda environment, navigate to the following MATLAB installation folder and install the python setup file:
 ```sh
 conda activate <env_name>
 cd "<MATLAB_installation_folder>/R2021a/extern/engines/python"
