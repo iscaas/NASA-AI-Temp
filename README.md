@@ -14,23 +14,6 @@ SA3C based GTO to GEO transfer  | SA3C based Super-GTO to GEO transfer
 <![SA3C based GTO to GEO transfer](/readmeplots/GTO-GEO.gif) > | <![SA3C based S-GTO to GEO transfer](/readmeplots/SuperGTO-GEO.gif) >
 
 
-## Files Description
-Circular2body and CisLunar3body folders contains the code, plots and Final optimized weights. 
-Circular2body folder contains the code for the following GEO targeted scenerios ie:
-1. GTO-1 to GEO
-2. GTO-2 to GEO
-3. Super-GTO-1 to GEO
-
-CisLunar3body folder contains the code for NRHO and Patch-point targeted scenerios.
-
-
-    In these folder :
-         - `config.py`: Contains the general configurations or initial parameters to run the code.
-         - 'scenerios.py': Contains the Scenerios Specific configurations.
-         - 'Spacecraft_Env.py' and 'enviornment.py': Contains general RL and Model specific enviornemnt functions.
-         - 'SA3C_test.py' is the main code file to reproduce the results while using trained weights.
-         - 'SA3C_train.py' is used to train the model from scratch. 
-
 
 ## Files Description
 #### Circular2body Folder
@@ -45,10 +28,23 @@ Contains code, plots, and final optimized weights for Super-GTO-2 to NRHO and Su
 - ****SA3C_train.py****: Train the model from scratch.
    
 
-  
-
-
 ## Setting up Enviornment:
+#### Prerequisites:
+- Python >=3.7.1,<3.11
+To run experiments locally:
+```sh
+git clone https://github.com/iscaas/NASA-AI-TrajectoryOpt_2020-2024.git
+pip install -r requirements/requirements.txt
+```
+Next We need to install the MATLAB extension in above enviornment. 
+For that first install MATLAB on your system (e.g., MATLAB 2021a). and then Activate your above Conda environment, navigate to the following MATLAB installation folder and install the python setup file:
+     ```sh
+     conda activate <env_name>
+     cd "<MATLAB_installation_folder>/R2021a/extern/engines/python"
+     e.g cd "C:/Program Files/MATLAB/R2021a/extern/engines/python"
+     python setup.py install
+     ```
+     
 ## Running the code:
 
 
