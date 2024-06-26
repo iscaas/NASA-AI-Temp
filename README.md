@@ -49,14 +49,14 @@ python setup.py install
 ```
      
 ## Running the code:
-    - To train the model from scratch:
-      ```sh
+- To train the model from scratch:
+```sh
       python SA3C_train.py  --case 1 --testing_weights 0  --single_weight_test 0
-      ```
-    - To reproduce the results using trained weights:
-      ```sh
+```
+- To reproduce the results using trained weights:
+```sh
       python SA3C_test.py  --case 1  --testing_weights 1  --single_weight_test 1 
-      ```
+```
       
 Where ****--case**** is defined to select the scenerios, as follows:
    
