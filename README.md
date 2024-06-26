@@ -57,7 +57,8 @@ python setup.py install
       ```sh
       python SA3C_test.py  --case 1  --testing_weights 1  --single_weight_test 1 
       ```
-      where --case is defined as follows:
+      
+   where --case is defined as follows:
         In Circular2body scenerios:
           -  --case 1 : GTO-1 to GEO DRL-1,                 --case 2 : GTO-1 to GEO DRL-2
           -  --case 3 : GTO-2 to GEO DRL-1,                 --case 4 : GTO-2 to GEO DRL-2
