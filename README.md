@@ -32,13 +32,13 @@ CisLunar3body folder contains the code for NRHO and Patch-point targeted sceneri
          - 'SA3C_train.py' is used to train the model from scratch. 
 
 
-##Files Description
+## Files Description
 #Circular2body Folder
 Contains code, plots, and final optimized weights for GEO-targeted scenarios:
 1. GTO-1 to GEO    2. GTO-2 to GEO    3. Super-GTO-1 to GEO
-#CisLunar3body Folder
+# CisLunar3body Folder
 Contains code for NRHO and Patch-point targeted scenarios.
-#Common Files
+# Common Files
 - config.py: General configurations and initial parameters.
 - scenerios.py: Scenario-specific configurations.
 - Spacecraft_Env.py & enviornment.py: General RL and model-specific environment functions.
