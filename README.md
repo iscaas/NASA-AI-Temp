@@ -15,6 +15,40 @@ SA3C based GTO to GEO transfer  | SA3C based Super-GTO to GEO transfer
 
 
 ## Files Description
+Circular2body and CisLunar3body folders contains the code, plots and Final optimized weights. 
+Circular2body folder contains the code for the following GEO targeted scenerios ie:
+1. GTO-1 to GEO
+2. GTO-2 to GEO
+3. Super-GTO-1 to GEO
+
+CisLunar3body folder contains the code for NRHO and Patch-point targeted scenerios.
+
+
+    In these folder :
+         - `config.py`: Contains the general configurations or initial parameters to run the code.
+         - 'scenerios.py': Contains the Scenerios Specific configurations.
+         - 'Spacecraft_Env.py' and 'enviornment.py': Contains general RL and Model specific enviornemnt functions.
+         - 'SA3C_test.py' is the main code file to reproduce the results while using trained weights.
+         - 'SA3C_train.py' is used to train the model from scratch. 
+
+
+##Files Description
+#Circular2body Folder
+Contains code, plots, and final optimized weights for GEO-targeted scenarios:
+1. GTO-1 to GEO    2. GTO-2 to GEO    3. Super-GTO-1 to GEO
+#CisLunar3body Folder
+Contains code for NRHO and Patch-point targeted scenarios.
+#Common Files
+- config.py: General configurations and initial parameters.
+- scenerios.py: Scenario-specific configurations.
+- Spacecraft_Env.py & enviornment.py: General RL and model-specific environment functions.
+- SA3C_test.py: Main file to reproduce results using trained weights.
+- SA3C_train.py: Train the model from scratch.
+   
+
+  
+
+
 ## Setting up Enviornment:
 ## Running the code:
 
