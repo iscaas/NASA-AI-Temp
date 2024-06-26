@@ -34,10 +34,9 @@ CisLunar3body folder contains the code for NRHO and Patch-point targeted sceneri
 
 ## Files Description
 #### Circular2body Folder
-Contains code, plots, and final optimized weights for GEO-targeted scenarios:
-1. GTO-1 to GEO    2. GTO-2 to GEO    3. Super-GTO-1 to GEO
+Contains code, plots, and final optimized weights for GEO-targeted scenarios ie from GTO-1, GTO-2 abnd from Super-GTO-1 to GEO orbit
 #### CisLunar3body Folder
-Contains code for NRHO and Patch-point targeted scenarios.
+Contains code, plots, and final optimized weights for Super-GTO-2 to NRHO and Super-GTO-2 to Patch-point transfer scenarios.
 #### Common Files
 - config.py: General configurations and initial parameters.
 - scenerios.py: Scenario-specific configurations.
