@@ -38,11 +38,11 @@ Contains code, plots, and final optimized weights for GEO-targeted scenarios ie 
 #### CisLunar3body Folder
 Contains code, plots, and final optimized weights for Super-GTO-2 to NRHO and Super-GTO-2 to Patch-point transfer scenarios.
 #### Common Files
-- #####config.py: General configurations and initial parameters.
-- #####scenerios.py: Scenario-specific configurations.
-- #####Spacecraft_Env.py & #####enviornment.py: General RL and model-specific environment functions.
-- #####SA3C_test.py: Main file to reproduce results using trained weights.
-- #####SA3C_train.py: Train the model from scratch.
+- ****config.py****: General configurations and initial parameters.
+- ****scenerios.py****: Scenario-specific configurations.
+- ****Spacecraft_Env.py**** & ****enviornment.py****: General RL and model-specific environment functions.
+- ****SA3C_test.py****: Main file to reproduce results using trained weights.
+- ****SA3C_train.py****: Train the model from scratch.
    
 
   
