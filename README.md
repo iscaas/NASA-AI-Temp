@@ -49,7 +49,23 @@ python setup.py install
 ```
      
 ## Running the code:
-
+    - To train the model from scratch:
+      ```sh
+      python SA3C_train.py  --case 1 --testing_weights 0  --single_weight_test 0
+      ```
+    - To reproduce the results using trained weights:
+      ```sh
+      python SA3C_test.py  --case 1  --testing_weights 1  --single_weight_test 1 
+      ```
+      where --case is defined as follows:
+        In Circular2body scenerios:
+          -  --case 1 : GTO-1 to GEO DRL-1,                 --case 2 : GTO-1 to GEO DRL-2
+          -  --case 3 : GTO-2 to GEO DRL-1,                 --case 4 : GTO-2 to GEO DRL-2
+          -  --case 7 : Super-GTO-1 to GEO DRL-1,           --case 8 : Super-GTO-1 to GEO DRL-2
+        In Circular3body/PatchPoint scenerios:  
+          -  --case 1 : Super-GTO-2 to PatchPoint DRL-1,    --case 2 : Super-GTO-2 to PatchPoint DRL-2
+        In Circular3body/NRHO scenerios:  
+          -  --case 1 : Super-GTO-2 to NRHO DRL-1,          --case 2 : Super-GTO-2 to NRHO DRL-2
 
 ## Methodology
 <image src='/readmeplots/methodology.PNG' width=1000/>
