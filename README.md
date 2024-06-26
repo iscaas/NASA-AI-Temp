@@ -36,7 +36,7 @@ Contains code, plots, and final optimized weights for Super-GTO-2 to NRHO and Su
 To run experiments locally:
 ```sh
 git clone https://github.com/iscaas/NASA-AI-TrajectoryOpt_2020-2024.git
-pip install -r requirements/requirements.txt
+pip install -r requirements.txt
 ```
 
 Next We need to install the MATLAB extension in above enviornment. 
