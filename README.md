@@ -13,7 +13,8 @@ SA3C based GTO to GEO transfer  | SA3C based Super-GTO to GEO transfer
 :-: | :-:
 ![SA3C based GTO to GEO transfer](/readmeplots/GTO-GEO.gif)  | ![SA3C based S-GTO to GEO transfer](/readmeplots/SuperGTO-GEO.gif) 
 
-
+## Appendix
+For comprehensive implementation details including all modeling assumptions and algorithm parameter settings, please check the attached Appendix.pdf in files. 
 
 ## Files Description
 #### Circular2body Folder
